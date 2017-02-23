@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset ="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<div class = "left">
+			<img src="img.jpg">
+			<h4>任务1-3</h4>
+		</div>
+		<div class = "right">
+			<img src="img.jpg">
+			<img src="img.jpg">
+			<img src="img.jpg">
+			<img src="img.jpg" class="last">
+		</div>
+		<div class = "middle">
+			<h4>关于本任务介绍</h4>
+			<p><a href="http://ife.baidu.com/2016/task/detail?taskId=3">http://ife.baidu.com/2016/task/detail?taskId=3</a></p>
+			<h4>完成本任务时的笔记</h4>
+			<p>最近很浮躁，然后觉得有必要做些事，偶然看到大神的宣传，就看到了百度这一系列的介绍，觉得很感兴趣，打算边做边复习，从这个任务开始，也算是这个账号的第一份代码。
+				<br>首先就是关于本任务的核心：三栏式布局。
+				<span><span class="withcolor">根据任务描述，要做到左右固定宽度与位置，中间自适应。</span>这里面用的方法是左右绝对定位，中间块设定margin(我设定了最小值，去掉的话缩小到了最后就不见了)。当然你也可以不这样，还有其他方法。然后呢，你就会发现，父级没自适应高度啦~。这个时候呢，我用的是最普通的方式，就是加一个隐形的clear盒子。</span>然后就是大小问题了，这里有个很烦人的问题，就是数值是总体的，所以还是要计算一下才行的。
+			</p>
+			<h4>后记</h4>
+			<p>在做下一个任务后进行了复习，发现css3有很多新的方式，其中弹性布局很有意思，用起来会很简单，不过不熟练，所以没改代码，详细的弹性布局的可以看<a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html">阮一峰老师的博客</a></p>
+		</div>
+		<div class = "clear"></div>
+	</div>
+	
+</body>
+<html>
